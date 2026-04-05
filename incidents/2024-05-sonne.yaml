@@ -1,0 +1,13 @@
+id: "2024-05-sonne"
+protocol: Sonne Finance
+date: 2024-05-15
+chain: optimism
+loss_usd: 20000000
+category: share-inflation
+root_cause: "Empty market donation attack on Compound V2 fork during new market creation"
+references:
+  - url: "https://rekt.news/sonne-finance-rekt/"
+    title: "Sonne Finance - Rekt"
+lessons:
+  - "Compound V2 forks must seed cToken supply atomically with market creation"
+  - "Empty market share inflation remains the top killer of lending forks"
