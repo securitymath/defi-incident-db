@@ -1,0 +1,13 @@
+id: "2024-10-radiant"
+protocol: Radiant Capital
+date: 2024-10-16
+chain: arbitrum
+loss_usd: 50000000
+category: access-control
+root_cause: "3 of 11 multisig signers compromised via malware"
+references:
+  - url: "https://rekt.news/radiant-capital-rekt2/"
+    title: "Radiant Capital - Rekt II"
+lessons:
+  - "Multisig threshold 3/11 is too low for 50M+ TVL"
+  - "Hardware wallet supply chain attacks are real"
