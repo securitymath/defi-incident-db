@@ -1,0 +1,13 @@
+id: "2024-03-curio"
+protocol: Curio
+date: 2024-03-23
+chain: ethereum
+loss_usd: 16000000
+category: access-control
+root_cause: "Voting power manipulation via MKR token weight in governance contract"
+references:
+  - url: "https://rekt.news/curio-rekt/"
+    title: "Curio - Rekt"
+lessons:
+  - "Governance contracts must account for flash-borrowed voting power"
+  - "Weight calculations should use time-weighted checkpoints"
