@@ -1,0 +1,13 @@
+id: "2024-06-uwulend"
+protocol: UwU Lend
+date: 2024-06-10
+chain: ethereum
+loss_usd: 23000000
+category: oracle-manipulation
+root_cause: "Oracle derived from CurvePool spot price, manipulable via flash loan"
+references:
+  - url: "https://rekt.news/uwu-lend-rekt/"
+    title: "UwU Lend - Rekt"
+lessons:
+  - "Curve pool spot prices are not safe oracles"
+  - "TWAP with 30+ minute windows resists flash loan attacks"
